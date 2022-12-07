@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Page for Quiz -->
+    <div id="rules">
+        <h1>Try to answer the following code-related questions within the time limit. </h1>
+        <h1>Keep in mind that incorrect answers will penalize your score time by 10 seconds. </h1>
+       
+        <button id="rules-continue">Continue</button>
+    </div>
+    <div id="startButton">
+        <button>Start Quiz</button>
+    </div>
+     <!-- Quiz Timer -->
+     <h2 id="timer"></h2>
+
+<!-- Question Contents -->
+<div id="questions">
+    <h3 id="question-text"></h3>
+    <ul id="choices">
+      <button id="option-one"></button>
+      <button id="option-two"></button>
+      <button id="option-three"></button>
+    </ul>
+</div>
+
+<div id="initials-input-section">
+    <h2>Enter your initials below!</h2>
+    <input id="initials-input" type="text">
+    <button id="initials-submit">Submit</button>
+</div>
+
+<div id="scoreboard">
+    <h1>High Scores!</h1>
+    <ul id="scores"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

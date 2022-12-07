@@ -1,0 +1,58 @@
+body {
+    background-color: tan;
+
+}
+
+.start-button button{
+    height: 400px;
+    width: 400px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+   
+}
+
+#start-button {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#rules{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    margin-top: 300px;
+    
+}
+
+.buttons button{
+    
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#timer {
+    display: none;
+    font-size: x-large;
+    text-align: center;
+    color: firebrick;
+}
+
+#questions {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+#scoreboard {
+    display: none;
+}
+
+#initials-input-section {
+    display: none;
+}
