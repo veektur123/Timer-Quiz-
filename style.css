@@ -1,24 +1,31 @@
 body {
-    background-color: tan;
+    background-color:lightgreen;
 
 }
 
-.start-button button{
-    height: 400px;
-    width: 400px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-   
+#startButton button {
+        display: block;
+        background-color: orange;
+        border-radius: 40px;
+        border: 10px double #cccccc;
+        color: #e01e1e;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+        
+    
 }
 
-#start-button {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
+
 
 #rules{
     display: none;
@@ -32,8 +39,7 @@ body {
     
     display: flex;
     justify-content: center;
-
-
+    
 }
 
 #timer {
@@ -51,8 +57,16 @@ body {
 
 #scoreboard {
     display: none;
+    font-size: xx-large;
+    margin-left: 500px;
+    margin-top: 200px;
+    font-family:fantasy ;
 }
 
 #initials-input-section {
     display: none;
+    text-align: center;
+    margin-top: 250px;
+    font-size: x-large;
 }
+
